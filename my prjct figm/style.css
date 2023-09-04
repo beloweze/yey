@@ -1,0 +1,535 @@
+html {
+    font-family: 'Lato', sans-serif;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding-bottom: 100vh;
+}
+
+.flex-container {
+    max-width: 100%;
+    width: auto;
+    display: flex;
+    justify-content: space-around;
+    border: 1px solid rgb(0, 0, 0);
+    flex-wrap: wrap;
+}
+
+
+.yes {
+    font-weight: 700;
+    font-size: 70px;
+    margin-bottom: 5px;
+
+}
+
+.yes:link {
+    text-decoration: none;
+    color: black;
+}
+
+.yes:visited {
+    color: black;
+}
+
+.yes:hover {
+    color: #fbb6b6;
+}
+
+.flex2 {
+    font-size: 22px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 80px;
+    margin-left: 40px;
+    font-weight: 400;
+}
+
+.sun:link {
+    text-decoration: none;
+    color: black;
+}
+
+.sun:visited {
+    color: black;
+}
+
+.sun:focus {
+    color: #fbb6b6;
+}
+
+.sun:hover {
+    color: #fbb6b6;
+}
+
+.sun:active {
+    color: #fbb6b6;
+}
+
+.opti:link {
+    text-decoration: none;
+    color: black;
+}
+
+.opti:visited {
+    color: black;
+}
+
+.opti:focus {
+    color: #fbb6b6;
+}
+
+.opti:hover {
+    color: #fbb6b6;
+}
+
+.opti:active {
+    color: #fbb6b6;
+}
+
+.fit:link {
+    text-decoration: none;
+    color: black;
+}
+
+.fit:visited {
+    color: black;
+}
+
+.fit:focus {
+    color: #fbb6b6;
+}
+
+.fit:hover {
+    color: #fbb6b6;
+}
+
+.fit:active {
+    color: #fbb6b6;
+}
+
+.care {
+    font-weight: 500;
+    font-size: 30px;
+    display: flex;
+    align-items: center;
+}
+
+.text {
+    position: absolute;
+    font-weight: 700;
+    font-size: 84px;
+    margin-left: 110px;
+    margin-top: 390px;
+
+}
+
+.see {
+    position: absolute;
+    font-size: 20px;
+    font-weight: 200;
+    margin-top: 1px;
+}
+
+.strelka {
+    display: flex;
+    text-align: center;
+    margin-left: 218px;
+    margin-top: -15px;
+    animation: strelka 3s 0s both infinite;
+}
+
+.strelka:hover {
+    animation: none;
+}
+
+@keyframes strelka {
+
+    0%,
+    20% {
+        transform: translate3d(0, 0, 0);
+    }
+
+    10%,
+    14%,
+    18%,
+    2%,
+    6% {
+        transform: translate3d(-7px, 0, 0);
+    }
+
+    12%,
+    16%,
+    4%,
+    8% {
+        transform: translate3d(7px, 0, 0);
+    }
+}
+
+.imggirl {
+    float: right;
+    margin-right: 120px;
+    margin-top: 70px;
+    animation: 5s show ease-out;
+}
+
+@keyframes show {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+.block2 {
+    display: flex;
+    width: 100%;
+}
+
+.imgblock {
+    flex: 1 1 0px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 620px;
+    background-size: cover;
+}
+
+.imgl {
+    background: url(girl2.png);
+    margin-top: 150px;
+
+}
+
+.imgr {
+    background: url(boy1.png);
+    margin-top: 150px;
+
+}
+
+.shop-button1 {
+    background-color: #FFBCBC;
+    padding: 40px;
+    border: 0;
+}
+
+.shop-button2 {
+    background-color: #fbb6b6;
+    padding: 36px;
+    border: 0;
+    padding-left: 50px;
+}
+
+.block3 {
+    border-bottom: 1px solid black;
+    margin: 15px;
+}
+
+.new {
+    margin-top: 150px;
+    font-size: 50px;
+    font-weight: 700;
+    margin-left: 40px;
+    padding-right: 10px;
+
+}
+
+.see2 {
+    font-size: 20px;
+    float: right;
+    right: 50px;
+    font-weight: 300;
+    margin-right: 70px;
+    margin-top: 30px;
+}
+
+.eyes {
+    display: flex;
+    text-align: center;
+    justify-content: space-around;
+    margin-top: 70px;
+}
+
+.noemi {
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.b1 {
+    margin-top: 15px;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.hurst {
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.b2 {
+    margin-top: 15px;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.louisa {
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.b3 {
+    margin-top: 15px;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.block4 {
+    display: flex;
+    width: 100%;
+}
+
+.imgblock4 {
+    flex: 1 1 0px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 620px;
+    background-size: cover;
+    margin-top: 160px;
+}
+
+.imgleft {
+    background-image: url(girl3.png);
+}
+
+.imgright {
+    background-image: url(back4.png);
+}
+
+.mitch {
+    font-size: 70px;
+    font-weight: 400;
+}
+
+.block4text {
+    margin-right: 370px;
+
+}
+
+.shop-button3 {
+    margin-top: 120px;
+    background-color: #FFBCBC;
+    padding: 40px;
+    border: 0;
+}
+
+.block5 {
+    border-bottom: 1px solid black;
+    margin: 15px;
+}
+
+.best {
+    margin-top: 150px;
+    font-size: 50px;
+    font-weight: 700;
+    margin-left: 40px;
+    padding-right: 10px;
+}
+
+.see3 {
+    font-size: 20px;
+    float: right;
+    right: 50px;
+    font-weight: 300;
+    margin-right: 70px;
+    margin-top: 30px;
+}
+
+.eyes-block2 {
+    display: flex;
+    text-align: center;
+    justify-content: space-around;
+    margin-top: 70px;
+}
+
+.saskia {
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.bb1 {
+    font-size: 20px;
+    font-weight: 700;
+    margin-top: 30px;
+}
+
+.cynthia {
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.bb2 {
+    margin-top: 15px;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.eimear {
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.bb3 {
+    margin-top: 15px;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.block6 {
+    display: flex;
+    width: 100%;
+}
+
+.imgblock6 {
+    flex: 1 1 0px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 620px;
+    background-size: cover;
+    margin-top: 160px;
+}
+
+.imgblock6-left {
+    background-image: url(girl4.png);
+}
+
+.imgblock6-right {
+    background-image: url(boy2.png);
+}
+
+.shop-button4 {
+    background-color: #FFBCBC;
+    padding: 40px;
+    border: 0;
+
+}
+
+.block7 {
+    border-bottom: 1px solid black;
+    margin: 15px;
+}
+
+.brand {
+    margin-top: 150px;
+    font-size: 50px;
+    font-weight: 700;
+    margin-left: 40px;
+    padding-right: 10px;
+}
+
+.see4 {
+    font-size: 20px;
+    float: right;
+    right: 50px;
+    font-weight: 300;
+    margin-right: 70px;
+    margin-top: 30px;
+}
+
+.textbig {
+    font-size: 160px;
+    color: #FFBCBC;
+    font-weight: 700;
+    margin-top: 100px;
+    margin-left: 20px;
+}
+
+
+
+.content-box {
+    margin-left: 220px;
+    margin-top: 200px;
+}
+
+.who {
+    font-size: 50px;
+    font-weight: 700;
+}
+
+.textend {
+    font-size: 20px;
+    font-weight: 300;
+}
+
+.boy3 {
+    float: right;
+    margin-right: 140px;
+    animation: boy3 5s forwards;
+}
+
+@keyframes boy3 {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+
+
+.footer {
+    background-color: #AABAD0;
+    border-bottom: 1px solid black;
+    margin-top: 270px;
+}
+
+.yes2 {
+    font-weight: 400;
+    font-size: 70px;
+    margin-top: 150px;
+    padding-right: 10px;
+    margin-left: 100px;
+}
+
+.we11 {
+    float: right;
+    font-size: 20px;
+    font-weight: 300;
+    margin-right: 70px;
+    margin-top: 30px;
+}
+
+.copy {
+    background-color: #AABAD0;
+    border-bottom: 1px solid black;
+}
+
+.footerinfo {
+    font-size: 15px;
+    margin-left: 430px;
+
+
+}
+
+.footertext {
+    margin-top: 30px;
+    margin-left: 90px;
+
+}
